@@ -1,0 +1,30 @@
+{
+  "name": "ostest",
+  "version": "0.0.0",
+  "description": "Open-Source testing framework for those who want simple unit assertions",
+  "homepage": "",
+  "author": {
+    "name": "Scott McKenna",
+    "email": "Scott.McKenna@scottmckenna.co.uk",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "node",
+    "test",
+    "tdd",
+    "unit test",
+    "open source"
+  ],
+  "devDependencies": {
+    "nsp": "^2.6.3"
+  },
+  "scripts": {
+    "prepublish": "nsp check"
+  },
+  "repository": "harbyuk/ostest",
+  "license": "GPL-3.0"
+}
